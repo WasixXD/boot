@@ -74,6 +74,7 @@ enter_kernel:
 %include "./pm/gdt.asm"
 
 
+; variables
 HelloWorld db 'Hello World', 0
 BOOT_DRIVE: db 0
 ProtectedMode db 'Entrando no modo 32 bits', 0
